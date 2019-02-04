@@ -3,7 +3,7 @@ package path;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
-@Path("/hello")
+@Path("/path")
 public class MessageController {
 
 	@GET

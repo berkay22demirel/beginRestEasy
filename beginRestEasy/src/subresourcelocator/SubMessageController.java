@@ -2,8 +2,8 @@ package subresourcelocator;
 
 import javax.ws.rs.Path;
 
-@Path("/example")
-public class MessageController {
+@Path("/")
+public class SubMessageController {
 
 	@Path("/sub")
 	public SubController getMessage() {
