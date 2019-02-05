@@ -22,6 +22,7 @@ import webapplicationexception.WebApplicationExceptionController;
 import beanparam.BeanParamController;
 import clientapi.ClientApiController;
 import clientapipost.ClientApiPostController;
+import clientapipostxml.ClientApiPostXmlController;
 import cookieparam.CookieController;
 import defaultvalue.DefaultValueController;
 import exceptionmapping.ExceptionMappingController;
@@ -54,6 +55,7 @@ public class RegisterApplication extends Application {
 		singletons.add(new ExceptionMappingController());
 		singletons.add(new ClientApiController());
 		singletons.add(new ClientApiPostController());
+		singletons.add(new ClientApiPostXmlController());
 
 	}
 
