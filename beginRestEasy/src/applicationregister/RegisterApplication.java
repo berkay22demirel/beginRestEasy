@@ -13,6 +13,7 @@ import queryparam.QueryParamController;
 import subresourcelocator.SubController;
 import subresourcelocator.SubMessageController;
 import firstexample.HelloController;
+import formformparam.FormController;
 
 @ApplicationPath("/")
 public class RegisterApplication extends Application {
@@ -27,6 +28,7 @@ public class RegisterApplication extends Application {
 		singletons.add(new SubController());
 		singletons.add(new CarController());
 		singletons.add(new QueryParamController());
+		singletons.add(new FormController());
 	}
 
 	@Override
