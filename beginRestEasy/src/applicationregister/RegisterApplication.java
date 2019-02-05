@@ -14,6 +14,7 @@ import path.MessageController;
 import pathparam.UserController;
 import pathsegmentmatrixparam.CarController;
 import queryparam.QueryParamController;
+import responsecode.ResponseCodeController;
 import responsetypes.ResponseTypeController;
 import subresourcelocator.SubController;
 import subresourcelocator.SubMessageController;
@@ -44,6 +45,7 @@ public class RegisterApplication extends Application {
 		singletons.add(new ResponseTypeController());
 		singletons.add(new JaxbController());
 		singletons.add(new JacksonController());
+		singletons.add(new ResponseCodeController());
 
 	}
 
