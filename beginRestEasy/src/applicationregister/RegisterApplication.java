@@ -1,5 +1,7 @@
 package applicationregister;
 
+import headerparam.HeaderParamController;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -29,6 +31,7 @@ public class RegisterApplication extends Application {
 		singletons.add(new CarController());
 		singletons.add(new QueryParamController());
 		singletons.add(new FormController());
+		singletons.add(new HeaderParamController());
 	}
 
 	@Override
