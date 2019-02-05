@@ -4,6 +4,8 @@ import javax.ws.rs.FormParam;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 
+import org.jboss.resteasy.annotations.Form;
+
 @Path("/form")
 public class FormController {
 	
@@ -14,6 +16,14 @@ public class FormController {
 		
 		return "Welcome " + name + " " + surname;
 		
+	}
+
+	@POST
+	@Path("/addPerson")
+	public String addPerson(@Form Person person) {
+
+		return "Welcome " + person;
+
 	}
 
 }
