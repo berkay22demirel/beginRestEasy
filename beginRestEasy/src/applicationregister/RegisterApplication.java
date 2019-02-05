@@ -9,6 +9,7 @@ import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
 import jaxb.JaxbController;
+import jsonjackson.JacksonController;
 import path.MessageController;
 import pathparam.UserController;
 import pathsegmentmatrixparam.CarController;
@@ -42,6 +43,7 @@ public class RegisterApplication extends Application {
 		singletons.add(new DefaultValueController());
 		singletons.add(new ResponseTypeController());
 		singletons.add(new JaxbController());
+		singletons.add(new JacksonController());
 
 	}
 
