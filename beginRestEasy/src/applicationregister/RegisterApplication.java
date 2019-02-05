@@ -16,6 +16,7 @@ import subresourcelocator.SubController;
 import subresourcelocator.SubMessageController;
 import beanparam.BeanParamController;
 import cookieparam.CookieController;
+import defaultvalue.DefaultValueController;
 import firstexample.HelloController;
 import formformparam.FormController;
 
@@ -36,6 +37,7 @@ public class RegisterApplication extends Application {
 		singletons.add(new HeaderParamController());
 		singletons.add(new CookieController());
 		singletons.add(new BeanParamController());
+		singletons.add(new DefaultValueController());
 
 	}
 
