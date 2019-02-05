@@ -18,6 +18,7 @@ import responsecode.ResponseCodeController;
 import responsetypes.ResponseTypeController;
 import subresourcelocator.SubController;
 import subresourcelocator.SubMessageController;
+import webapplicationexception.WebApplicationExceptionController;
 import beanparam.BeanParamController;
 import cookieparam.CookieController;
 import defaultvalue.DefaultValueController;
@@ -46,6 +47,7 @@ public class RegisterApplication extends Application {
 		singletons.add(new JaxbController());
 		singletons.add(new JacksonController());
 		singletons.add(new ResponseCodeController());
+		singletons.add(new WebApplicationExceptionController());
 
 	}
 
