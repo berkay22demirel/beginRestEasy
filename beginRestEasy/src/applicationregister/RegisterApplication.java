@@ -12,6 +12,7 @@ import path.MessageController;
 import pathparam.UserController;
 import pathsegmentmatrixparam.CarController;
 import queryparam.QueryParamController;
+import responsetypes.ResponseTypeController;
 import subresourcelocator.SubController;
 import subresourcelocator.SubMessageController;
 import beanparam.BeanParamController;
@@ -38,6 +39,7 @@ public class RegisterApplication extends Application {
 		singletons.add(new CookieController());
 		singletons.add(new BeanParamController());
 		singletons.add(new DefaultValueController());
+		singletons.add(new ResponseTypeController());
 
 	}
 
