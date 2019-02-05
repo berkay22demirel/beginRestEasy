@@ -22,6 +22,7 @@ import webapplicationexception.WebApplicationExceptionController;
 import beanparam.BeanParamController;
 import cookieparam.CookieController;
 import defaultvalue.DefaultValueController;
+import exceptionmapping.ExceptionMappingController;
 import firstexample.HelloController;
 import formformparam.FormController;
 
@@ -48,6 +49,7 @@ public class RegisterApplication extends Application {
 		singletons.add(new JacksonController());
 		singletons.add(new ResponseCodeController());
 		singletons.add(new WebApplicationExceptionController());
+		singletons.add(new ExceptionMappingController());
 
 	}
 
