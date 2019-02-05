@@ -14,6 +14,7 @@ import pathsegmentmatrixparam.CarController;
 import queryparam.QueryParamController;
 import subresourcelocator.SubController;
 import subresourcelocator.SubMessageController;
+import cookieparam.CookieController;
 import firstexample.HelloController;
 import formformparam.FormController;
 
@@ -32,6 +33,8 @@ public class RegisterApplication extends Application {
 		singletons.add(new QueryParamController());
 		singletons.add(new FormController());
 		singletons.add(new HeaderParamController());
+		singletons.add(new CookieController());
+
 	}
 
 	@Override
