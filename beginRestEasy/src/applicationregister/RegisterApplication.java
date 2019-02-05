@@ -20,6 +20,7 @@ import subresourcelocator.SubController;
 import subresourcelocator.SubMessageController;
 import webapplicationexception.WebApplicationExceptionController;
 import beanparam.BeanParamController;
+import clientapi.ClientApiController;
 import cookieparam.CookieController;
 import defaultvalue.DefaultValueController;
 import exceptionmapping.ExceptionMappingController;
@@ -50,6 +51,7 @@ public class RegisterApplication extends Application {
 		singletons.add(new ResponseCodeController());
 		singletons.add(new WebApplicationExceptionController());
 		singletons.add(new ExceptionMappingController());
+		singletons.add(new ClientApiController());
 
 	}
 
