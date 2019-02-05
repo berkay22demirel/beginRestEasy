@@ -8,6 +8,7 @@ import java.util.Set;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
+import jaxb.JaxbController;
 import path.MessageController;
 import pathparam.UserController;
 import pathsegmentmatrixparam.CarController;
@@ -40,6 +41,7 @@ public class RegisterApplication extends Application {
 		singletons.add(new BeanParamController());
 		singletons.add(new DefaultValueController());
 		singletons.add(new ResponseTypeController());
+		singletons.add(new JaxbController());
 
 	}
 
